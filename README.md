@@ -1,29 +1,40 @@
-# README #
+[![License](https://img.shields.io/cocoapods/l/SwiftyXMLParser.svg?style=flat)]
 
-This README would normally document whatever steps are necessary to get your application up and running.
+# HuckleberryNetwork 
 
-### What is this repository for? ###
+```
+This repo contains swift code for presenting UIViewControllers. (subclass of UIPresentionController)
+```
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### Sample Code
 
-### How do I get set up? ###
+```
+add code example.
+```
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+## Motivation
 
-### Contribution guidelines ###
+```
+Simplify code needed do presentations of UIViewControllers.
+```
 
-* Writing tests
-* Code review
-* Other guidelines
+## Installation
 
-### Who do I talk to? ###
+```
+* Download or fork this repository.
+* Open project in XCODE.
+* This project contains demo code.  If you want to just use the presentation code copy HGPresent folder 
+to your project.
+```
 
-* Repo owner or admin
-* Other community or team contact
+## Contributors
+
+```
+David Vallas (david_vallas@yahoo.com)
+```
+
+## License
+
+```
+MIT
+```
