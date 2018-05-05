@@ -1,6 +1,6 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftyXMLParser.svg?style=flat)]
 
-# HuckleberryNetwork 
+#  HuckleberryPresent
 
 ```
 This repo contains swift code for presenting UIViewControllers. (subclass of UIPresentionController)
