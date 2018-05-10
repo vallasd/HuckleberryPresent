@@ -52,10 +52,9 @@ class HGPresentController: UIPresentationController, UIAdaptivePresentationContr
     
     override func presentationTransitionWillBegin() {
         
-        containerView?.backgroundColor = UIColor(displayP3Red: 0, green: 0, blue: 1, alpha: 0.3)
         containerView?.frame = containerFrame
         presentedView?.alpha = transitionSettings.fade.fadeIn ? 0.0 : 1.0
-    
+        
         if let c = chromeView {
             c.frame = containerView!.bounds
             c.alpha = 0.0

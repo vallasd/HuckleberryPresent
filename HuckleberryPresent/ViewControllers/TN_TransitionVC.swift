@@ -48,8 +48,7 @@ class TN_TransitionVC: UIViewController {
                                               chrome: color,
                                               entireScreen: entireScreen.isOn,
                                               chromeDismiss: chromeDismiss.isOn,
-                                              iphoneSize: transitionSize,
-                                              ipadSize: nil)
+                                              size: transitionSize)
         return settings
     }
     

@@ -70,8 +70,8 @@ class HGAnimatedTrans: NSObject, UIViewControllerAnimatedTransitioning {
         let p = transitionSettings.size.start
         let size = CGSize(width: container.width * p.wPercent, height: container.height * p.hPercent)
         let origin = transitionSettings.directionIn.origin(location: transitionSettings.position,
-                                                             size: size,
-                                                             container: container.size)
+                                                           size: size,
+                                                           container: container.size)
         return CGRect(origin: origin, size: size)
     }
     
@@ -88,8 +88,8 @@ class HGAnimatedTrans: NSObject, UIViewControllerAnimatedTransitioning {
         let p = transitionSettings.size.end
         let size = CGSize(width: container.width * p.wPercent, height: container.height * p.hPercent)
         let origin = transitionSettings.directionOut.origin(location: transitionSettings.position,
-                                                           size: size,
-                                                           container: container.size)
+                                                            size: size,
+                                                            container: container.size)
         return CGRect(origin: origin, size: size)
     }
     
